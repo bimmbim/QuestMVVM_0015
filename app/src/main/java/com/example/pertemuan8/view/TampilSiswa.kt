@@ -36,6 +36,7 @@ fun TampilSiswa(
                     }
                     Divider(thickness = dimensionResource(R.dimen.thickness_divider))
                 }
+                Spacer(modifier = Modifier.height(dimensionResource(R.dimen.padding_small)))
             }
 
         }
