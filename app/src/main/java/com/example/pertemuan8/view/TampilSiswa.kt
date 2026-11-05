@@ -14,4 +14,12 @@ fun TampilSiswa(
         Pair(stringResource(R.string.alamat), statusUiSiswa.alamat)
     )
 
+    Scaffold(modifier = Modifier,
+        {
+            TopAppBar(
+                title = { Text(stringResource(id = R.string.detail), color = Color.White) },
+            )
+        }) { isiRuang ->
+
+    }
 }
